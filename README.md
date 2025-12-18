@@ -100,6 +100,40 @@ curl http://localhost:8000/health
 }
 ```
 
+## Screenshots
+
+### Terminal - Chạy hệ thống
+
+**Tag Simulator:**
+
+![Tag Simulator](screenshot_terminal/tag_simulator.png)
+
+**Main Server (Receiver):**
+
+![Main Server](screenshot_terminal/main.png)
+
+**FastAPI Server:**
+
+![FastAPI](screenshot_terminal/FastAPI.png)
+
+### Postman - Test API
+
+**POST /tags - Đăng ký Tag:**
+
+![Create Tags](screenshot_postman/createTags.png)
+
+**GET /tags - Lấy danh sách:**
+
+![Get Tags](screenshot_postman/getTags.png)
+
+**GET /tag/{id} - Chi tiết Tag:**
+
+![Tag Details](screenshot_postman/details.png)
+
+**GET /health - Health Check:**
+
+![Health Check](screenshot_postman/health.png)
+
 ## Bài 3: Review Code và Đề xuất cải thiện
 
 ### Đoạn code cần review:
